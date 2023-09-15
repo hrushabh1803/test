@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+.margin-right{
+      margin-right: 1rem;
+}
+.margin-toprem{
+      margin-top: 1rem;
+}
+
+body{
+      font-family: "Manrope-Medium", Helvetica;;
+}
+.flex-display{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+}
+.strip{
+      justify-content: space-between;
+      padding: 0 107px;
+      width: 100%;
+      height: 40px;
+      background: #252F3D;
+}
+.menu-top{
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 0.7rem;
+      text-decoration: none;
+      color: #ffff;
+}
+.menu-top img{
+      margin-right:10px ;
+}
+.nav-menu{
+      justify-content: space-between;
+      width: 100%;
+      height: 5rem;
+      padding: 0 5rem;
+}
+.nav-menu .logo-icon{
+      width: 222px;
+      height: auto;
+}
+
+.row{
+      margin: auto;
+  
+}
+.main-heading{
+      text-align: center;
+}
+.footer{
+     margin-top: 60px;
+}
+.line
+{
+      margin: 0 9px;
+}
+.main-1{
+      font-weight: 100;
+      font-size: 3rem;
+}
+.main-2{
+      font-weight: 400;
+      color: #4d5254;
+      line-height: 45px;
+      font-size: 20px;
+}
+.img-main{
+      width: 100%;
+    height: auto;
+}.main .row{
+      width: 90%;
+ background-color: #f9f9f9;
+}
+.main-icon{
+      display: flex;
+      justify-content: space-around;
+}.space-between{
+      justify-content: space-between;
+}
+.margin-top{
+      margin-top: 30px;
+}
+.margin-Xtop{
+      margin-top: 50px;
+}
+.img-number{
+      width: 34px;
+      height: 34px;
+      color: #ffff;
+      padding: 0px 7px;
+      align-items: center;
+      font-family:  "Manrope-Regular", Helvetica;
+      font-weight: 400;
+      border-radius: 50px;
+      display: flex;
+      margin-right: 15px;
+      justify-content: center;
+      background-color: #2C7EF8;
+}
+.border{
+      color: #2C7EF8;
+      background-color: transparent;
+      border:2px solid #2C7EF8;
+}
+.svg-img{
+      width: 34px;
+      padding: 0px 7px;
+      height: 34px;
+      background: #85BF55;
+      border-radius: 50px;
+      margin-right: 15px;
+}
+.imgD{
+   justify-content: center;
+   align-items: unset;
+   gap:41px;
+
+}
+.dis-img{
+      padding: 24px 29px;
+      width: 36rem;
+}
+.dig-img-2{
+      padding: 25px 5px;
+}
+.dis-img .tag{
+      font-size: 2.2rem;
+      font-weight: 100;
+      align-self: stretch;
+      line-height: 2.9rem;
+      
+}
+.inner{
+      margin-top: 1.3rem;
+      gap:25px;
+      align-items: unset;
+
+}.inner-text{
+      width: 70%;
+}
+.inner-img{
+background-color: #2C7EF8;
+}
+.inner-img-div{
+      width: 25%;
+}
+.photo{
+      width: 50px;
+      background-position: 44%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 50px;
+      background-image: url(assets/profile.png);
+      border-radius: 50%;
+}
+.photo .profile-img{
+      width: 100%;
+      height: auto;
+}
+.tag{
+      align-self: stretch;
+}
+.tag span{
+      color: #2C7EF8;
+}
+.bottom-div{
+      margin-top: 19px;
+      background-color: #FFF;
+      padding: 13px 28px;
+}
+.feedback{
+      margin-top: 1rem;
+      font-weight: 400;
+      line-height: 150%;
+      font-size: 0.9rem;
+     color:  #4D5254;
+}
+.tick{
+      margin-top: 0.6rem;
+}
+.tick svg{
+      margin-right: 10px;
+}
+.pers{
+      padding: 10px;
+}
+.pers svg{
+      margin-right:12px ;
+}
+button{
+      justify-content: center;
+    gap: 20px;
+
+      background-color: #59AE43;
+    border: none;
+    font-size: 1.3rem;
+    border-radius: 26px;
+    color: white;
+    margin-top: 1rem;
+    height: 2.5rem;
+    width: 35rem;
+}
+  .text-center{
+      color: red;
+      text-align: center;
+      margin: 1rem;
+  }
+  .payment-option{
+      justify-content: space-around;
+      margin-top: 1rem;
+      height: 40px;
+      /* padding: 10px 15px; */
+      border-radius: 0.7rem;
+      border: 1px solid #CFCFCF;
+  }
+  .payment-option p{
+      border-right: 2px solid lightgray;
+      padding-right: 8px;
+      padding-left: 2px;
+      font-size: 13px;
+      font-weight: 500;
+  }
+  .discreption{
+      justify-content: space-evenly;
+  }
+  .discreption p{
+      width: 26rem;
+      font-size: 15px;
+      
+      line-height: 22px;
+  
+  }
+  .payment-option svg{
+      margin-right: 5px;
+  }
+  .discreption img{
+      width: 6rem;
+  }
+.mobile-view{
+      display: none;
+}
+@media (max-width: 768px) {
+      .main{
+            width: 100%;
+            background-color: #f9f9f9;
+      }
+    .dis-img{
+      text-align: center;
+      padding: 0;
+    }
+  
+      .main-1 {
+          font-size: 2rem;
+      }
+  
+      .main-2 {
+          font-size: 16px;
+      }
+  
+      .footer {
+          margin-top: 30px;
+      }
+      .mobile{
+            flex-direction: column;
+            gap: 3px;
+      }
+      .display-view{
+      display: none;
+      }
+      .mobile-view{
+            display: flex;
+      } 
+      .main-icon span{
+            width: 1rem;
+      } 
+
+  }
+  @media (max-width:569px){
+      .nav-menu{
+      padding: 0 1rem;}
+  }
+  
